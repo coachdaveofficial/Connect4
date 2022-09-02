@@ -5,6 +5,10 @@
  * board fills (tie)
  */
 
+//  document.addEventListener("DOMContentLoaded", function(event) {     
+  
+// });
+
  const WIDTH = 7;
  const HEIGHT = 6;
  
@@ -107,7 +111,6 @@
  
    // get next spot in column (if none, ignore click)
    let y = findSpotForCol(x);
-   console.log("THIS IS FOUND SPOT " + y)
    if (y === null) {
      return y;
    }
